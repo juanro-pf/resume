@@ -1,0 +1,130 @@
+html {
+  width: 1020px;
+}
+
+body {
+  margin: 30px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between  ;
+}
+
+.top-section img {
+  border-radius: 50%;
+  height: 130px;
+  margin-bottom: 20px;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.about-me p {
+  font-size: 40px;
+  margin: 10px;
+}
+
+.about-me hr {
+  border: 1px solid black;
+}
+
+.about-me .ocupation {
+  font-family: monospace;
+}
+
+.contact {
+  display: flex;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.contact b,a {
+  display: block;
+}
+
+.contact a {
+  color: inherit;
+  margin-left: 20px;
+  text-align: end;
+  text-decoration: none;
+}
+
+.main-section {
+  margin-left: 30px;
+}
+
+.main-section p {
+  font-size: 20px;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+}
+
+.education-element {
+  margin-bottom: 15px;
+}
+
+.education-element .career {
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.education-element .school {
+  font-family: math;
+}
+
+.experience-element {
+  margin-bottom: 15px;
+}
+
+.experience-element .job {
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.experience-element .description {
+  font-family: math;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.experience-element .subheader {
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+.experience-element ul {
+  font-size: 19px;
+  line-height: 28px;
+  list-style-type: disc;
+  margin-left: 55px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.skills {
+  line-height: 40px;
+  text-align: justify;
+}
+
+.aditional-info-list {
+  font-size: 20px;
+  line-height: 30px;
+  list-style-type: circle;
+  margin-left: 40px;
+}
