@@ -128,3 +128,7 @@ ul.no-bullets {
   list-style-type: circle;
   margin-left: 40px;
 }
+
+.aditional-info-list a {
+  display: inline;
+}
